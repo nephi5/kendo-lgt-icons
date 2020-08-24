@@ -6,3 +6,4 @@
 - `ng new kendo-pdf-hyphenation`
 - `ng add @progress/kendo-angular-pdf-export`
 - `npm install hyphen --save`
+- `npm run start`
