@@ -1,16 +1,1 @@
 <h1>{{ title }}</h1>
-
-<button (click)="pdf.saveAs('hyphenation-exmaple')">Save as PDF...</button>
-
-<kendo-pdf-export #pdf paperSize="A4" margin="2cm">
-  <div class="hypenated-container">
-    <h3>Without hyphenation</h3>
-    <p>
-      {{ longWords }}
-    </p>
-    <h3>With hyphenation</h3>
-    <p>
-      {{ longWordsHyphenated }}
-    </p>
-  </div>
-</kendo-pdf-export>
