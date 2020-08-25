@@ -9,7 +9,7 @@ import { hyphenate } from 'hyphen/en';
 export class AppComponent implements OnInit {
   public title = 'kendo-pdf-hyphenation';
 
-  public romeoAndJulietPrologue = `
+  public longWords = `
   Some of the Longest Words in English:
   Pneumonoultramicroscopicsilicovolcanoconiosis,
   Pseudopseudohypoparathyroidism,
@@ -18,11 +18,11 @@ export class AppComponent implements OnInit {
   supercalifragilisticexpialidocious,
   Incomprehensibilities`;
 
-  public romeoAndJulietPrologueHypenated: string;
+  public longWordsHyphenated: string;
 
   public ngOnInit(): void {
-    hyphenate(this.romeoAndJulietPrologue).then(
-      (result) => (this.romeoAndJulietPrologueHypenated = result)
+    hyphenate(this.longWords).then(
+      (result) => (this.longWordsHyphenated = result)
     );
   }
 }
