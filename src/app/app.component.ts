@@ -7,7 +7,7 @@ import { hyphenate } from 'hyphen/en';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  public title = 'kendo-pdf-hyphenation';
+  public title = 'smartbanking-base';
 
   public longWords = `
   Some of the Longest Words in English:
