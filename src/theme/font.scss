@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Frutiger 55 Roman";
+  font-style: normal;
+  src: url("/assets/fonts/frutigerroman/frutigerroman.woff2") format("woff2"),
+    url("/assets/fonts/frutigerroman/frutigerroman.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Frutiger Truetype";
+  src: url("/assets/fonts/frutigerroman/frutigerroman.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Frutiger Light Truetype";
+  src: url("/assets/fonts/frutigerroman/frutiger_45_light.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Frutiger Bold Truetype";
+  src: url("/assets/fonts/frutigerroman/frutiger_65_bold.ttf")
+    format("truetype");
+}
